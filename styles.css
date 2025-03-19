@@ -1,2 +1,54 @@
-
 /* Your CSS Code here. */
+body{
+	font-family:Arial sans-serif;
+	padding: 2rem;
+	background-color: #f9f9f9
+}
+
+.form-heading{
+	text-align:center;
+	font-size:2rem;
+	margin-bottom: 1rem;
+}
+
+.feedback-form{
+	background-color: #fff;
+	padding: 2rem;
+	border-radius: 10px;
+	max-width: 500px;
+	margin: auto;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.feedback-form label{
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+.feedback-form input, 
+.feedback-form button{
+	width: 100%;
+	padding: 0.5rem;
+	margin-bottom: 1.5rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.feedback-form input[type="color"]{
+	height: 50px;
+	padding: 0;
+}
+
+.feedback-form button{
+	backdrop-color: #4CAF50;
+	color: white;
+	font-size: 1rem;
+	cursor: pointer;
+	border: none;
+}
+
+.feedback-form button:hover{
+	background-color: #45a049;
+}
